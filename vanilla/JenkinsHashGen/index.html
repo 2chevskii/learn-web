@@ -1,0 +1,41 @@
+<html>
+ 
+<head>
+    
+    <noscript>
+        <h1 style="color: red;">YOU NEED TO ENABLE JAVASCRIPT TO USE THIS PAGE</h1>
+    </noscript>
+    
+    <!-- Imports -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jenkins.js"></script>
+    
+    <title>Jenkins Hash</title>    
+    
+</head>
+    
+<body>
+    <div align="center">
+        <div align="center" class="maintable">
+            <h1 class="headerStyle">Jenkins hash generator</h1>
+        
+            <input id="keyInput" class="field" oninput="onInputFieldChange()">
+            <button id="hashbutton" class="field" onclick="onHashButtonClick()"><b>HASH</b></button>
+    
+            <table align="center" id="hashTable" style="display: none" class="hashtable">
+                <tr>
+                    <td>Signed</td>
+                    <td>Unsigned</td>
+                    <td>Hex</td>
+                </tr>
+                <tr>
+                    <td id="signed">-1234</td>
+                    <td id="unsigned">1234</td>
+                    <td id="hex">0x1234</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

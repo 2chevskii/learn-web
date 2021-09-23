@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+@font-face{
+    font-family: Rust;
+    src: url(../fonts/Rust.ttf);
+}
+
+body{
+    margin: 0px;
+    background-color: #21210d; 
+    text-align: center;
+    background-image: url(../images/noise.png);
+    user-select: none;
+}
+
+input{
+    background-color: #9dab5e;
+    font-size: 30px;
+    color: antiquewhite;
+    font-family: 'Share tech mono', monospace;
+    transition: background-color 0.2s ease;
+}
+button{
+    background-color: #ff5f2e; 
+    font-family: 'Rust', dis;
+    color: black;
+    font-size: 25px;
+    border: 0;
+    letter-spacing: 3;
+    transition: background-color 0.2s ease;
+}
+
+button:hover{
+    background-color: #c24823
+}
+
+
+.headerStyle{
+    color: #80a15f;
+    margin-top: 5px;
+    font-family: 'Share Tech Mono';
+    font-size: 60;
+    letter-spacing: 1;
+    margin-top: 20px;
+    min-width: 800px;
+    max-width: 800px;
+    transition: letter-spacing 0.5s ease;
+}
+
+.headerstyle:hover{
+    letter-spacing: 3px;
+}
+
+input:hover{
+    background-color: #859150
+}
+
+
+.field{
+    border-radius: 4px;
+    margin-top: 20px;
+    background-image: url(../images/noise.png);
+    width: 70%;
+    height: 5%;
+    border: 0px;
+    text-align: center;
+    min-width: 800px;
+    max-width: 800px;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+.hashtable{
+    min-width: 800px;
+    max-width: 800px;
+    text-align: center;
+    font-family: 'Share tech mono';
+    color: antiquewhite;
+    margin-top: 20px;
+    font-size: 30
+}
+
+.maintable{
+    max-width: 800px;
+    
+}
